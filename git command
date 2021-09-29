@@ -9,11 +9,24 @@
                
                
                
+               GIT Command 
+               
+inportent 1    $ git init                                           =  go to your project file and type this command,Your file will be monitored all the time
+               $ ls -lart                                           =  type this command to see your hidden files
+               $ ls                                                 =  type this command to see your all files
+               $ touch file name                                    =  type this command to create a new files
+inportent 2    $ git add --A                                        =  your all file will be on stage 
+               $ git add File name                                  =  your that file will be on stage 
+               $ git add .html (any extention)(.txt,.php,.css, any type) =  your all .html(extention) file will be on stage 
+               
+               
+               
+               
+               
                
                
               create a new repository on the command line
-              
-                git init
+       
                 git add 
                 git commit -m  "Your Massege"
                 git branch -M main
