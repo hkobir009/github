@@ -1,4 +1,14 @@
                
+                GIT configuration
+                
+                $ git config --global user.name Your Name             =     git configaration create your name 
+                $ git config --global user.email example@gmail.com    =     git configaration create your email 
+                $ git config --global user.name                       =     you can check  your git name , that name you are config 
+                $ git config --global user.email                      =     you can check  your git email , that email you are config 
+               
+               
+               
+               
                
                
               create a new repository on the command line
