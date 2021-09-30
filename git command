@@ -28,8 +28,15 @@ inportent 3    $ git commit -m  "Your Massege"                      =  type this
                $ git diff                                           = difference between last chenges
                $ git diff --staged                                  = difference between stage file  that your are chenged
                $ git rm -f                                          = use this command to deleted files
-               $ touch .gitignore                                   = any type of file if you want to ignore from git monitoring write this file/derectory name in .gitignore file
-               
+               $ touch .gitignore (app.js,myDerectory/,*.png)       = any type of file if you want to ignore from git monitoring write this file/derectory name in .gitignore file
+inportent 4    $ git branch                                         = show your all branch
+               $ git branch branchName                              = Create a new branch 
+               $ git checkout -b branchName                         = Create a new branch and Switched to that branch
+               $ git checkout (kabir)                               = Switched to kabir branch
+               $ git merge (kabir)                                  = master is main branch, when you merge with another branch then another branch file all information will get master branch
+                $ git branch                                         = show your al branch
+                $ git branch                                         = show your al branch
+                $ git branch                                         = show your al branch
                
               create a new repository on the command line
       
