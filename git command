@@ -15,20 +15,24 @@ inportent 1    $ git init                                           =  go to you
                $ ls -lart                                           =  type this command to see your hidden files
                $ ls                                                 =  type this command to see your all files
                $ touch file name                                    =  type this command to create a new files
-inportent 2    $ git add --A                                        =  your all file will be on stage 
+inportent 2    $ git add -A                                         =  your all file will be on stage 
                $ git add File name                                  =  your that file will be on stage 
-               $ git add .html (any extention)(.txt,.php,.css, any type) =  your all .html(extention) file will be on stage 
-               
-               
-               
-               
-               
+               //$ git add .html (any extention)(.txt,.php,.css, any type) =  your all .html(extention) file will be on stage 
+               $ git add .                                          =  your currant derectory will be on stage 
+               $ git add file path(css/custom.css)                  =  type this command to that file will be on stage
+inportent 3    $ git commit -m  "Your Massege"                      =  type this command to your all stage file will be unmodified 
+               $ git checkout file name(contact.html)               =  type this command to rollback your locat file
+               $ git checkout -f                                    =  type this command to rollback your all file (trust file)
+               $ git log                                            =  all Informetion who work on here and  working time and all commit file with massege
+               $ git log -p -1  or (-2 , last two commit)           = see your last commit information that you are chenged
+               $ git diff                                           = difference between last chenges
+               $ git diff --staged                                  = difference between stage file  that your are chenged
+               $ git rm -f                                          = use this command to deleted files
+               $ touch .gitignore                                   = any type of file if you want to ignore from git monitoring write this file/derectory name in .gitignore file
                
                
               create a new repository on the command line
-       
-                git add 
-                git commit -m  "Your Massege"
+      
                 git branch -M main
                 git remote add origin      https://github.com/hkobir009/github.git
                 git push -u origin main
