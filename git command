@@ -16,6 +16,7 @@ inportent 1    $ git init                                           =  go to you
                $ ls                                                 =  type this command to see your all files
                $ touch file name                                    =  type this command to create a new files
 inportent 2    $ git add -A                                         =  your all file will be on stage 
+               $ git add .                                          =  your all file will be on stage 
                $ git add File name                                  =  your that file will be on stage 
                //$ git add .html (any extention)(.txt,.php,.css, any type) =  your all .html(extention) file will be on stage 
                $ git add .                                          =  your currant derectory will be on stage 
