@@ -51,3 +51,16 @@ inportent 4    $ git branch                                         = show your 
                 git remote add origin       https://github.com/hkobir009/github.git
                 git branch -M main
                 git push -u origin main
+                
+                
+              git clone  
+              
+              open code in any editor
+              copy .env.example and peast here and rename .env
+              composer install / composer update
+              database connection
+              php artisan key:generate
+              php artisan serve
+              
+                
+                
